@@ -1,0 +1,10 @@
+.listContact {
+  /* border: solid; */
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 1250px;
+  margin-left: 130px;
+
+}

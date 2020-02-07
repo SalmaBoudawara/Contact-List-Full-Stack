@@ -1,0 +1,59 @@
+.App {
+  padding-top: 20px;
+  height: 900px;
+  background-image: url("https://images.unsplash.com/photo-1484626753559-5fa3ea273ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: 100vw 100vw;
+
+  align-items: center;
+}
+.myApp {
+  text-align: center;
+  border-radius: 30px;
+  background: rgb(183, 182, 192);
+  background: linear-gradient(
+    39deg,
+    rgba(183, 182, 192, 1) 0%,
+    rgba(253, 253, 253, 1) 29%,
+    rgba(226, 226, 230, 1) 59%,
+    rgba(248, 248, 249, 1) 100%
+  );
+  width: 600px;
+  margin-left: 450px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.336);
+  height: 150px;
+}
+.myApp h1 {
+  /* border:solid; */
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: crimson;
+  padding-top: 30px;
+}
+.button {
+  width: 300px;
+  /* border:solid; */
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.button button {
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 10px;
+  font-weight: 200;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  background: rgb(255, 50, 50);
+  background: linear-gradient(
+    39deg,
+    rgba(255, 50, 50, 1) 0%,
+    rgba(209, 0, 0, 1) 32%,
+    rgba(253, 65, 65, 1) 61%,
+    rgba(213, 6, 6, 1) 100%
+  );
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.473);
+}
